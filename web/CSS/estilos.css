@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-nov-2020, 2:34:51
+    Author     : Grupo 09 - TPI115
+*/
+h1 {
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+
+h2{
+  color:black;
+  text-align: center;}
+
+body{
+  background-color: #ffffff;
+}
+
+.up{
+  background:#4F71E1;
+  color:white;
+  bottom:1%;
+  display:flex;
+  height:50px;
+  position:fixed;
+  right:1%;
+  width:50px;
+  border-radius: 100%;
+  align-items:center;
+  border: black 0.5px solid;}
+
+.up:hover{background:#808082;}
+
+#actualizate,#eliminate{
+border:black 0.5px solid;
+height: 100%;
+width:100%;
+padding-left:10px;
+padding-right:10px;
+padding-left:6px;
+padding-right:6px;
+border-radius: 5px;
+position: relative;
+display: block;}
+
+#login_link{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.p_log_cla{
+    color: green;
+}
